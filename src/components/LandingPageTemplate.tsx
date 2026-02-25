@@ -32,9 +32,9 @@ export default function LandingPageTemplate({ data }: LandingPageTemplateProps) 
         areaServed: data.city,
         openingHoursSpecification: {
             "@type": "OpeningHoursSpecification",
-            dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            opens: "08:00",
-            closes: "18:00",
+            dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            opens: "05:30",
+            closes: "21:00",
         },
     };
 
