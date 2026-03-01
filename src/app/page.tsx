@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
-import LocaloWidget from "@/components/LocaloWidget";
 import { WHATSAPP_LINK, SITE_URL } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -183,13 +182,6 @@ export default function HomePage() {
           <p className="mt-8 text-center text-muted text-sm">
             Y seguimos expandiendo. Pronto en más ciudades de Colombia.
           </p>
-        </div>
-      </AnimatedSection>
-
-      {/* ===== AUDITORÍA GRATUITA (LOCALO WIDGET) ===== */}
-      <AnimatedSection className="py-20 sm:py-28 px-4 border-t border-border bg-white/5">
-        <div className="max-w-4xl mx-auto">
-          <LocaloWidget />
         </div>
       </AnimatedSection>
 

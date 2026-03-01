@@ -2,7 +2,6 @@ import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import FaqAccordion from "@/components/FaqAccordion";
-import LocaloWidget from "@/components/LocaloWidget";
 import { WHATSAPP_LINK, SITE_URL } from "@/lib/data";
 import type { LandingPageData } from "@/lib/data";
 
@@ -173,13 +172,6 @@ export default function LandingPageTemplate({ data }: LandingPageTemplateProps) 
                             </div>
                         ))}
                     </div>
-                </div>
-            </AnimatedSection>
-
-            {/* ===== AUDITORÍA GRATUITA (LOCALO WIDGET) ===== */}
-            <AnimatedSection className="py-16 sm:py-24 px-4 border-t border-border bg-white/5">
-                <div className="max-w-4xl mx-auto">
-                    <LocaloWidget />
                 </div>
             </AnimatedSection>
 
