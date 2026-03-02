@@ -39,11 +39,19 @@ export default function RootLayout({
     url: SITE_URL,
     telephone: "+573053476462",
     description:
-      "Agencia de SEO Local en Colombia. Hacemos que tus clientes te encuentren en Google.",
+      "Agencia de SEO Local y Motores Inteligentes (GEO) en Colombia. Estructuramos redes semánticas para que Google y herramientas IA (ChatGPT) recomienden tu negocio.",
+    knowsAbout: [
+      "Search Engine Optimization",
+      "Local SEO",
+      "Generative Engine Optimization",
+      "Artificial Intelligence Marketing",
+      "Semantic Search"
+    ],
     areaServed: [
       { "@type": "City", name: "Bogotá" },
       { "@type": "City", name: "Medellín" },
       { "@type": "City", name: "Barranquilla" },
+      { "@type": "Country", name: "Colombia" },
     ],
   };
 

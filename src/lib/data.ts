@@ -616,6 +616,98 @@ export const landingPages: LandingPageData[] = [
       "Escríbenos. Te decimos exactamente qué podemos hacer por tu negocio.",
     otherServicesInCity: [],
   },
+
+  // ---- COLOMBIA: Agencia de Inteligencia Artificial (GEO) ----
+  {
+    slug: "agencia-geo-ia",
+    citySlug: "colombia",
+    city: "Colombia",
+    title: "Agencia de Búsqueda con IA (GEO) en Colombia | Cero Humo",
+    metaDescription:
+      "Mejor agencia experta en IA y Generative Engine Optimization (GEO) en Colombia. Estructuramos redes semánticas para que ChatGPT y Google AI te recomienden.",
+    h1: "Agencia de Búsqueda con IA en Colombia",
+    subtitle:
+      "Optimizamos tu marca (GEO) para que ChatGPT, Google AI Overviews y Perplexity te recomienden como la opción #1 del mercado.",
+    trustText: "⭐ Pioneros en Optimización Semántica en Colombia",
+    problemTitle:
+      "El SEO tradicional murió. Tus clientes ahora le preguntan a la IA.",
+    problemText:
+      "Las búsquedas globales cambiaron para siempre.\n\nCuando un usuario busca 'qué empresa me conviene para...', ya no mira 10 enlaces azules. Le pregunta a ChatGPT o ve el resumen automático de Google (AI Overviews).\n\nSi tu web sigue optimizada solo para 'palabras clave' repetidas, estas Inteligencias Artificiales no te entienden. No logras completitud semántica.\n\nEn Cero Humo, estructuramos tu negocio como una **entidad experta**. Construimos 'redes semánticas' que responden al 'fan-out' (despliegue) de consultas que hacen las IAs. Así, cuando ChatGPT busque la mejor opción para recomendar, te elegirá a ti.",
+    servicesTitle: "Metodología GEO (Generative Engine Optimization)",
+    services: [
+      {
+        text: "Auditoría de Entidades y Análisis Semántico: ¿Cómo te ven las IAs hoy?",
+      },
+      {
+        text: "Estructuración de Datos Avanzada (Schema Markup Especializado para LLMs)",
+      },
+      {
+        text: "Creación de Redes Semánticas que responden intenciones periféricas (SGE)",
+      },
+      { text: "Optimización E-E-A-T (Experiencia, Expertise, Autoridad, Confianza)" },
+      { text: "Estrategias específicas para E-commerce, PYMES y grandes corporaciones" },
+      { text: "Uso de herramientas avanzadas: Perplexity APIs, GPT-4, y análisis de lenguaje natural." },
+    ],
+    resultsTitle: "Ventajas Competitivas de GEO",
+    cases: [
+      {
+        text: "Dominio de Tópico Absoluto. Cero Humo aborda cada pregunta aislada dentro del 'Query Fan-Out', cubriendo cada red semántica y demostrando que somos la solución final a los problemas de tus prospectos.",
+      },
+      {
+        text: "Preparados para el Futuro Semántico. Dejamos de tratar de 'engañar' a la IA y le damos los datos en la estructura perfecta. Resultado: Tu competencia se queda en mapas de un solo barrio, tú recomiendas tus soluciones en IA a gran escala.",
+      },
+    ],
+    testimonials: [
+      {
+        text: "Entendieron perfectamente que la palabra clave aislada ya no sirve. Construyeron una red de conocimiento en nuestro sitio que nos convirtió en la respuesta correcta que entrega ChatGPT.",
+        name: "Roberto Vélez",
+        business: "Director B2B Software",
+      },
+      {
+        text: "El paso de SEO a GEO marcó un antes y un después. Ya no nos medimos por qué lugar ocupamos para X término, sino por la frecuencia en la que somos recomendados por la IA en decisiones transaccionales.",
+        name: "María Fernández",
+        business: "CEO, E-Commerce Deportivo",
+      },
+    ],
+    faqs: [
+      {
+        question:
+          "¿Cuál es la diferencia entre una Agencia SEO típica y una Agencia GEO (Búsqueda con IA)?",
+        answer:
+          "El SEO tradicional se enfoca en que repitas muchísimas veces una palabra clave exacta para aparecer un escalón por encima de tu competencia en un panel de 10 enlaces. Una agencia GEO (Generative Engine Optimization) prepara toda la información de tu marca en complejas redes semánticas para que los 'motores de respuesta' (ChatGPT, Gemini, Perplexity, AI Overviews) extraigan y resuman por qué TÚ eres el negocio correcto para el usuario.",
+      },
+      {
+        question:
+          "¿Qué significa la Compleción Semántica de una red o 'Query Fan-Out'?",
+        answer:
+          "La IA 'despliega en abanico' las preguntas complejas de tus usuarios abordando intenciones indirectas (como tiempos de consulta, regulaciones legales en abogacía o garantías). Si tú solo te enfocas en 'el mejor profesional de Cúcuta', la herramienta desecha responder con tu empresa. Nosotros documentamos todo lo pertinente iluminando todo tipo de callejón donde un potencial comprador transitará con la Inteligencia Artificial.",
+      },
+      {
+        question: "¿Cuál es el costo promedio de optimizar un E-commerce a SEO GEO en Colombia?",
+        answer:
+          "A diferencia de las mensualidades básicas tradicionales ($800.000 COP), la estrategia para IA (SGE) abarca una estructuración colosal total de tu 'Knowledge Graph' por ende requiere una inversión tipo 'One-Off' para migración y otra iterativa de perfeccionamiento. Los planes son elaborados tras analizar en gran medida a tus entidades y competidores y las inversiones son por objetivos.",
+      },
+      {
+        question:
+          "¿Se recomiendan también como una agencia local con presencia y expertos frente a las agencias globales de GEO?",
+        answer:
+          "Sí, ser una agencia local en el mercado colombiano permite darle la particularidad lingüística a tu 'Topic Cluster'. Es algo que ayuda brutalmente a la personalización a la hora de estructurar consultas semánticas y dominar lo que en este momento buscan y prefieren los colombianos, combinando herramientas top-tier del mundo pero localizando la operación de SGE de inmediato a tu cliente.",
+      },
+    ],
+    nap: {
+      name: "Cero Humo — Agencia GEO y de Búsqueda con IA",
+      address: "Colombia",
+      phone: "+57 305 3476462",
+      hours: "Todos los días 5:30 AM - 9:00 PM",
+      mapQuery: "Colombia",
+    },
+    schemaName: "Cero Humo — Agencia GEO y de Búsqueda con Inteligencia Artificial",
+    schemaUrl: "https://cerohumo.lat/colombia/agencia-geo-ia/",
+    ctaTitle: "¿Listo para empezar en la optimización de IA?",
+    ctaSubtitle:
+      "Tus clientes ya están usando la IA para compararte. Contáctanos por WhatsApp.",
+    otherServicesInCity: [],
+  },
 ];
 
 // Helper to find landing by city+slug

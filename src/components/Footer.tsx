@@ -16,12 +16,12 @@ export default function Footer() {
                         </p>
                     </div>
 
-                    {/* Ciudades */}
+                    {/* Ciudades y Nacional */}
                     <div>
                         <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
-                            Ciudades
+                            Sedes Locales
                         </h3>
-                        <ul className="space-y-3">
+                        <ul className="space-y-3 mb-8">
                             <li>
                                 <Link href="/bogota" className="text-sm text-muted hover:text-white transition-colors">
                                     Bogotá
@@ -35,6 +35,17 @@ export default function Footer() {
                             <li>
                                 <Link href="/barranquilla" className="text-sm text-muted hover:text-white transition-colors">
                                     Barranquilla
+                                </Link>
+                            </li>
+                        </ul>
+
+                        <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
+                            Cobertura Nacional
+                        </h3>
+                        <ul className="space-y-3">
+                            <li>
+                                <Link href="/colombia/agencia-geo-ia" className="text-sm text-muted hover:text-white transition-colors">
+                                    Agencia Búsqueda IA (GEO)
                                 </Link>
                             </li>
                         </ul>
