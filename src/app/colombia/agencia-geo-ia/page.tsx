@@ -326,7 +326,7 @@ export default function AgenciaGeOIA() {
                 </div>
             </AnimatedSection>
 
-            {/* MEG A  FAQ */}
+            {/* MEGA FAQ */}
             <AnimatedSection className="py-20 sm:py-32 px-4 border-t border-border">
                 <div className="max-w-3xl mx-auto">
                     <div className="text-center mb-16">
@@ -338,6 +338,43 @@ export default function AgenciaGeOIA() {
                         </p>
                     </div>
                     <FaqAccordion items={megaFaqs} />
+                </div>
+            </AnimatedSection>
+
+            {/* KNOWLEDGE GRAPH / TOPIC CLUSTER LINKS */}
+            <AnimatedSection className="py-20 sm:py-32 px-4 border-t border-border bg-[#020202]">
+                <div className="max-w-6xl mx-auto">
+                    <div className="text-center mb-16">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight mb-6">
+                            Base de Conocimiento IA
+                        </h2>
+                        <p className="text-muted text-lg max-w-2xl mx-auto">
+                            Explora nuestras guías técnicas y comerciales diseñadas para dominar los motores de búsqueda de nueva generación en Colombia.
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <a href="/tecnologia/busqueda-generativa-sge-colombia" className="block p-6 rounded-2xl border border-white/10 bg-white/5 hover:border-white/30 hover:bg-white/10 transition-all">
+                            <span className="text-xs font-semibold text-green-400 mb-3 block">Tecnología SGE</span>
+                            <h3 className="text-lg font-bold text-white mb-2">Impacto de SGE en Colombia</h3>
+                            <p className="text-sm text-muted">Aprende por qué el "Query Fan-Out" destruye al SEO de palabras clave.</p>
+                        </a>
+                        <a href="/soluciones/soluciones-ecommerce-pequenas-empresas" className="block p-6 rounded-2xl border border-white/10 bg-white/5 hover:border-white/30 hover:bg-white/10 transition-all">
+                            <span className="text-xs font-semibold text-blue-400 mb-3 block">Sectorial E-Commerce</span>
+                            <h3 className="text-lg font-bold text-white mb-2">Búsqueda Generativa para Pequeñas Empresas</h3>
+                            <p className="text-sm text-muted">Estrategias de Vector Search y Product Schema para destronar gigantes.</p>
+                        </a>
+                        <a href="/comparativas/precios-agencias-ia-vs-tradicional" className="block p-6 rounded-2xl border border-white/10 bg-white/5 hover:border-white/30 hover:bg-white/10 transition-all">
+                            <span className="text-xs font-semibold text-orange-400 mb-3 block">Finanzas y ROI</span>
+                            <h3 className="text-lg font-bold text-white mb-2">Precios Agencia IA vs SEO Tradicional</h3>
+                            <p className="text-sm text-muted">Desglose de inversión: Infraestructura definitiva One-Off contra Retainers.</p>
+                        </a>
+                        <a href="/autoridad/como-evaluar-agencia-busqueda-ia" className="block p-6 rounded-2xl border border-white/10 bg-white/5 hover:border-white/30 hover:bg-white/10 transition-all">
+                            <span className="text-xs font-semibold text-purple-400 mb-3 block">Framework E-E-A-T</span>
+                            <h3 className="text-lg font-bold text-white mb-2">Evita el Humo: Cómo evaluar una agencia</h3>
+                            <p className="text-sm text-muted">Criterios técnicos, éticos y estructurales que debes exigir en 2026.</p>
+                        </a>
+                    </div>
                 </div>
             </AnimatedSection>
 

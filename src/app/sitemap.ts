@@ -1,9 +1,10 @@
 import type { MetadataRoute } from "next";
+import { getAllMDXNodes } from "@/lib/mdx";
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = "https://cerohumo.lat";
 
-    return [
+    const staticRoutes: MetadataRoute.Sitemap = [
         {
             url: baseUrl,
             lastModified: new Date(),
@@ -65,4 +66,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.9,
         },
     ];
+
+    const mdxNodes = getAllMDXNodes();
+    const dynamicRoutes: MetadataRoute.Sitemap = mdxNodes.map((node) => ({
+        url: `${baseUrl}/${node.categoria}/${node.slug}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.7,
+    }));
+
+    return [...staticRoutes, ...dynamicRoutes];
 }

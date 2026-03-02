@@ -56,7 +56,7 @@ export default function Footer() {
                         <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
                             Servicios en Bogotá
                         </h3>
-                        <ul className="space-y-3">
+                        <ul className="space-y-3 mb-8">
                             <li>
                                 <Link href="/bogota/agencia-de-marketing-digital" className="text-sm text-muted hover:text-white transition-colors">
                                     Agencia de Marketing Digital en Bogotá
@@ -70,6 +70,32 @@ export default function Footer() {
                             <li>
                                 <Link href="/bogota/consultor-seo-y-marketing" className="text-sm text-muted hover:text-white transition-colors">
                                     Consultor SEO en Bogotá
+                                </Link>
+                            </li>
+                        </ul>
+
+                        <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
+                            Recursos Especializados IA
+                        </h3>
+                        <ul className="space-y-3">
+                            <li>
+                                <Link href="/tecnologia/busqueda-generativa-sge-colombia" className="text-sm text-muted hover:text-white transition-colors">
+                                    Impacto del SGE en Colombia
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/soluciones/soluciones-ecommerce-pequenas-empresas" className="text-sm text-muted hover:text-white transition-colors">
+                                    Búsqueda con IA para E-commerce
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/comparativas/precios-agencias-ia-vs-tradicional" className="text-sm text-muted hover:text-white transition-colors">
+                                    Precio: Agencia IA vs Tradicional
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/autoridad/como-evaluar-agencia-busqueda-ia" className="text-sm text-muted hover:text-white transition-colors">
+                                    Cómo evaluar estrategias de IA
                                 </Link>
                             </li>
                         </ul>
