@@ -1,0 +1,43 @@
+---
+title: "SEO Técnico para LLMs: Estructuración de Datos para Motores de Inteligencia Artificial"
+description: "Cómo preparar la arquitectura técnica de tu sitio web para ser legible por ChatGPT, Perplexity y Google SGE mediante Knowledge Graphs y Schema avanzado."
+cluster: "tecnologia"
+date: "2026-03-01"
+---
+
+Durante la última década, el **SEO Técnico** se centró en métricas de rendimiento orientadas a los rastreadores clásicos de Google (Googlebot): velocidad de carga (Core Web Vitals), renderizado de JavaScript y etiquetas meta de indexación. 
+
+Aunque estos factores siguen siendo importantes para no ser penalizado, ya no son suficientes para destacar. Los Grandes Modelos de Lenguaje (LLMs) que alimentan la nueva Búsqueda Generativa (SGE) no solo quieren *leer* tu sitio web; necesitan *comprenderlo* matemáticamente para poder recomendarlo con confianza. 
+
+Esto ha dado lugar a una nueva disciplina: la **Ingeniería SEO para LLMs**.
+
+## El Problema de la Ambigüedad en la Búsqueda Generativa
+
+Cuando un LLM rastrea una web estandar que aplica "SEO tradicional", encuentra bloques de texto plano llenos de palabras clave. Si vendes *software para contabilidad automatizada en Colombia*, el texto podría decir *"El mejor software para contabilidad en Bogotá, ideal para empresas"*.
+
+Para ChatGPT o Perplexity, este texto es ruido comercial. Es ambiguo. La IA no sabe si eres un blog, un revendedor, una consultora o el desarrollador original del software. Ante la ambigüedad, la IA asume riesgo, y un motor generativo *odia* el riesgo (alucinaciones). Resultado: **No te recomienda.**
+
+## Construyendo tu Grafo de Conocimiento (Knowledge Graph)
+
+La solución técnica a la ambigüedad es estructurar tu información explícitamente usando esquemas (Schema.org) pero a un nivel profundo. No basta con poner el clásico `LocalBusiness` en el footer.
+
+Debes construir un **Grafo de Conocimiento** propio que documente tu Entidad digital (tu empresa) y la conecte lógicamente con todo tu universo temático. Esto implica usar inyecciones `JSON-LD` avanzadas.
+
+### 1. Entidades y Atributos Explícitos
+Debes definirte usando propiedades como `knowsAbout` (es experto en), `areaServed` (áreas de servicio operativas), `founder`, `award` (reconocimientos que la IA puede verificar externamente) e `isSimilarTo` (si buscas posicionarte contra un competidor global).
+
+### 2. Marcado de "Preguntas y Respuestas" Latentes (FAQPage Schema)
+Alineado con nuestra estrategia de **Query Fan-Out**, no debes responder las preguntas del sector en simples párrafos. Debes marcarlas matemáticamente con el esquema `FAQPage`. Cuando la IA rastrea tu dominio, añade de inmediato todas tus respuestas "oficiales" a su propia base de datos rápida, validando tu experiencia.
+
+### 3. Marcado Semántico de Artículos (Article & TechArticle)
+Los LLMs se entrenan absorbiendo artículos técnicos. Al usar el esquema `TechArticle`, y definiendo claramente las propiedades `dependencies` y `proficiencyLevel`, le dices a modelos como Google Gemini que el contenido de tu web tiene el peso técnico equivalente a documentación oficial, lo que dispara tu Autoridad (E-E-A-T).
+
+## De Sitios Web a Bases de Datos Vectoriales
+
+Las agencias de marketing más vanguardistas (como nosotros en Cero Humo) ya no construyen "sitios web" para empresas complejas o E-commerce; construyen infraestructuras que funcionan como **Bases de Datos Vectoriales**.
+
+Al sincronizar la data de tu web y transformarla en *embeddings* vectoriales, facilitas que la IA relacione el significado (no la palabra exacta) de tus soluciones con los problemas más abstractos que un usuario pueda formular en el prompt de ChatGPT.
+
+## Conclusión
+
+El SEO Técnico en 2026 ya no se trata solo de pasar el test de Google Lighthouse. Se trata de eliminar cualquier margen de duda para una máquina pensante. Quien estructure sus datos con mayor precisión lógica, será la "única respuesta" generada en la interfaz final.

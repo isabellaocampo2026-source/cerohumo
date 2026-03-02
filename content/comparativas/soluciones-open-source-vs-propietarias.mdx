@@ -1,0 +1,43 @@
+---
+title: "Búsqueda IA: Soluciones Open Source vs. Tecnologías Propietarias en Colombia"
+description: "Una guía técnica para CTOs sobre por qué y cuándo usar modelos Llama 3 (Open Source) frente a las APIs de OpenAI (Propietarios) en arquitecturas RAG corporativas."
+cluster: "comparativas"
+date: "2026-03-01"
+---
+
+A medida que las empresas en Colombia se dan cuenta de que necesitan integrar **Búsqueda Generativa y Knowledge Graphs** en sus ecosistemas internos y externos, los líderes técnicos (CTOs, Arquitectos) se enfrentan a un debate arquitectónico crucial: ¿Construimos nuestra solución sobre APIs propietarias como OpenAI (GPT-4) o desplegamos modelos Open Source (como Llama 3 o Mistral)?
+
+En **Cero Humo**, no impulsamos una única tecnología, sino que estructuramos arquitecturas basadas en las métricas de negocio. Aquí está la comparativa técnica y financiera.
+
+## 1. Modelos Propietarios (OpenAI, Gemini, Anthropic)
+
+Las tecnologías propietarias son "Cajas Negras / APIs como Servicio". Pagas por volumen de uso (tokens) y dependes del ancho de banda y las políticas de la corporación tecnológica de San Francisco.
+
+### Ventajas (Pros)
+*   **Time-to-Market Inmediato:** Puedes conectar tu web a GPT-4 en minutos y empezar a estructurar y extraer entidades para GEO y SGE.
+*   **Capacidad Analítica Extrema:** Son imbatibles para inferencia compleja. Si tu negocio requiere cruzar leyes fiscales complicadas con inventarios (FinTech / Legal), GPT-4o es el estándar de la industria.
+*   **Cero Mantenimiento de Hardware:** No necesitas GPUs locales. Google y Microsoft asumen la carga del hardware.
+
+### Desventajas (Contras)
+*   **Privacidad de Datos Crítica:** Aunque ofrecen tiers "Enterprise", los reguladores colombianos (Superintendencias) suelen poner trabas si datos PII (Personally Identifiable Information) médicos o financieros se envían a servidores extranjeros de terceros.
+*   **Vendor Lock-In y Costos Variables:** Si tu tráfico de Búsqueda Asistida explota, tu factura mensual a OpenAI también. Estás a merced de sus cambios de precios.
+
+## 2. Tecnologías Open Source (Llama 3, Mistral, Ollama)
+
+Los modelos de código abierto, liderados agresivamente por Meta (Llama) y la comunidad europea (Mistral), permiten descargar los "pesos" del modelo y correr el motor de IA en tus propios servidores locales o infraestructuras cloud controladas (AWS EC2 cerrado).
+
+### Ventajas (Pros)
+*   **Soberanía Absoluta de Datos:** Es la única solución éticamente y legalmente blindada para bancos, clínicas o entidades de gobierno en Colombia. Ningún dato sale de tu edificio.
+*   **Financial predictability (CAPEX):** Compras o alquilas servidores fijos. No pagas "por token". Si generas 1 millón de búsquedas semánticas o 10 millones, el costo del servidor es el mismo.
+*   **Fine-Tuning a la medida:** Podemos sobre-entrenar (Fine-tune) un modelo abierto exclusivamente con la "jerga" de tu industria. Aprende a hablar exactamente como los bogotanos de tu sector.
+
+### Desventajas (Contras)
+*   **Complejidad Operativa Dev-Ops:** Requiere talento de Machine Learning en nómina (o una agencia especializada como nosotros) para mantener actualizados los modelos y gestionar los servidores GPU paralelos.
+*   **Hardware Costoso:** Un despliegue robusto local de inferencia exige hardware especializado (NVIDIA H100s o A100s) cuya adquisición inicial es agresiva.
+
+## Veredicto para la Empresa Colombiana
+
+La recomendación general (Best Practice): **Modelos Híbridos**.
+Para el **Marketing Público (GEO/SGE)** donde no hay datos sensibles, usamos APIs de Gemini y GPT para estructurar rápidamente tu Schema y Knowledge Graph hacia el internet abierto.
+
+Pero, para los motores de **Búsqueda Interna (Enterprise Search RAG)** de tus empleados, implementamos Llama 3 bajo arquitecturas Seguras y Aisladas (Air-gapped) garantizando máxima privacidad corporativa.

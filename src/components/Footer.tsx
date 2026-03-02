@@ -98,6 +98,11 @@ export default function Footer() {
                                     Cómo evaluar estrategias de IA
                                 </Link>
                             </li>
+                            <li className="pt-2">
+                                <Link href="/recursos-ia" className="text-sm font-semibold text-amber-400 hover:text-amber-300 transition-colors flex items-center">
+                                    Ver todos los 26 recursos <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 
