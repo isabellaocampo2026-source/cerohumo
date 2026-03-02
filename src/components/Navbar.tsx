@@ -27,6 +27,9 @@ export default function Navbar() {
                         <Link href="/barranquilla" className="text-sm text-muted hover:text-white transition-colors duration-200">
                             Barranquilla
                         </Link>
+                        <Link href="/recursos" className="text-sm font-bold text-amber-500 hover:text-amber-400 transition-colors duration-200">
+                            Recursos y Trucos
+                        </Link>
                         <a
                             href={WHATSAPP_LINK}
                             target="_blank"
@@ -78,6 +81,13 @@ export default function Navbar() {
                             className="block text-lg text-muted hover:text-white transition-colors"
                         >
                             Barranquilla
+                        </Link>
+                        <Link
+                            href="/recursos"
+                            onClick={() => setIsOpen(false)}
+                            className="block text-lg font-bold text-amber-500 hover:text-amber-400 transition-colors"
+                        >
+                            Recursos y Hacks SEO
                         </Link>
                         <a
                             href={WHATSAPP_LINK}

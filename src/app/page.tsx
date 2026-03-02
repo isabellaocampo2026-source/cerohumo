@@ -177,6 +177,11 @@ export default function HomePage() {
               </Link>
             ))}
           </div>
+          <div className="mt-12 flex justify-center">
+            <Link href="/recursos" className="inline-flex items-center justify-center border border-white/20 bg-white/5 text-white font-medium px-8 py-4 rounded-full text-base sm:text-lg hover:bg-white/10 hover:border-white/40 transition-all duration-300">
+              📚 Explorar la biblioteca de Trucos SEO y Hacks IA →
+            </Link>
+          </div>
           <p className="mt-8 text-center text-muted text-sm">
             Y seguimos expandiendo. Pronto en más ciudades de Colombia.
           </p>
