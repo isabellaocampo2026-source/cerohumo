@@ -24,12 +24,12 @@ export default function HomePage() {
       <section className="min-h-[90vh] flex items-center justify-center px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tight leading-[1.1] animate-fade-in-up">
-            Aparece donde tus clientes te buscan hoy.
+            Agencia de Marketing Digital.
             <br />
-            <span className="text-muted">SEO para IAs.</span>
+            <span className="text-muted">Pero diferente.</span>
           </h1>
           <p className="mt-6 sm:mt-8 text-lg sm:text-xl text-muted max-w-2xl mx-auto leading-relaxed animate-fade-in-up delay-100">
-            Optimizamos tu marca para que ChatGPT, Google AI Overviews y motores semánticos te recomienden como la opción #1 en tu ciudad.
+            No vendemos redes sociales ni diseño. Nos especializamos al 100% en posicionamiento de búsquedas para que tus clientes te encuentren en Google, Maps y motores de Inteligencia Artificial.
           </p>
           <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up delay-200">
             <a
@@ -57,26 +57,26 @@ export default function HomePage() {
       <AnimatedSection id="que-hacemos" className="py-20 sm:py-28 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-center tracking-tight">
-            Optimización Semántica.
+            Solo 3 servicios.
             <br />
-            <span className="text-muted">No palabras clave aisladas.</span>
+            <span className="text-muted">Resultados reales.</span>
           </h2>
           <div className="mt-12 sm:mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
             {[
               {
-                icon: "🤖",
-                title: "Motores Generativos (GEO)",
-                text: "Estructuramos tu web para que ChatGPT, Perplexity y las IAs entiendan que tú eres la mejor respuesta.",
-              },
-              {
-                icon: "🧠",
-                title: "Autoridad Tópica",
-                text: "Construimos \"Redes Semánticas\" que responden todas las intenciones periféricas de tu cliente ideal.",
-              },
-              {
                 icon: "📍",
-                title: "SEO Local Estratégico",
-                text: "Aparecer en Google Maps aportando el máximo valor (E-E-A-T), asegurando mayor conversión real.",
+                title: "Búsquedas Locales (GMB)",
+                text: "Optimizamos tu perfil de Google My Business para que seas la opción #1 en Google Maps en tu ciudad.",
+              },
+              {
+                icon: "🔍",
+                title: "Búsquedas en Google (SEO)",
+                text: "Posicionamos tu página web en los primeros resultados orgánicos cuando tus clientes buscan lo que vendes.",
+              },
+              {
+                icon: "🤖",
+                title: "Búsquedas con IA (GEO)",
+                text: "Preparamos tu negocio para que ChatGPT y Perplexity te recomienden como el experto absoluto en tu sector.",
               },
             ].map((card, i) => (
               <div
